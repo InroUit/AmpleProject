@@ -1,0 +1,54 @@
+.aboutus{
+	margin-left: 30px;
+	padding-top: 20px;
+	margin-right:20px;
+	margin-bottom:10px;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 140%;
+	.aus-photo{
+		width: 100%;
+		height: 300px;
+		border-radius: 5px;
+		content: url('http://res.cloudinary.com/instantum/image/upload/v1485938875/aus_gec8pr.jpg');
+	}
+	.newze-photo{
+		width: 100%;
+		height: 300px;
+		border-radius: 5px;
+		content: url('http://res.cloudinary.com/instantum/image/upload/v1485939900/newzealand_bhrnt2.jpg');
+	}
+	.usa-photo{
+		width: 100%;
+		height: 300px;
+		border-radius: 5px;
+		content: url('http://res.cloudinary.com/instantum/image/upload/v1485939574/usa_djrlz4.jpg');
+	}
+	.uk-photo{
+		width: 100%;
+		height: 300px;
+		border-radius: 5px;
+		content: url('http://res.cloudinary.com/instantum/image/upload/v1485940066/uk_qkyxcs.jpg');
+	}
+	.canada-photo{
+		width: 100%;
+		height: 300px;
+		border-radius: 5px;
+		content: url('http://res.cloudinary.com/instantum/image/upload/v1485939478/canada_v76cw5.jpg');
+	}
+	.title{
+		font-size: 20px;
+		font-weight: bold;
+		color: #ff5722;
+	}
+	.description{
+		font-size: 15px;
+		color: #504d4d;
+		table, th, td {
+   			border: 0.5px solid black;
+   			font-size: 15px;
+			font-weight: normal;
+		}
+	}
+	
+}

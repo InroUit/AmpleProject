@@ -1,0 +1,241 @@
+.container1{
+  padding-top: 10px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 40px;
+
+  .kmau{
+  background-color: #d4d9f7;
+  font-size:18px;
+  border-radius:5px;
+  height:55px;
+  width: 150px;
+  border-width: thin;
+  margin-top:10px;
+  color: black;
+  }
+  .kmau:hover{
+    background-color: #1E90FF;
+  }
+  hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-style: inset;
+    border-width: 1px;
+    border-color:orange;
+  } 
+  .big-text{
+    font-size: 40px;
+    color: #696565;
+    margin-top: 20px;
+  }
+  .small-text{
+    font-size: 25px;
+    color: #808080;
+  }
+}
+.service-block{  
+  background-color: #dce0e0;
+  margin-bottom: 5px;
+  padding-left: 120px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+.ourservices{
+  margin-left: 350px;
+  font-size: 30px;
+}
+.services{
+  display: inline;
+  a{
+      text-decoration: none;
+      color: #6f6a6a;
+    }
+  a:hover{
+    text-decoration: none;
+    color: orange;
+  }
+}  
+.service-holder{
+  width: 200px;
+  display: inline-block;
+  margin-right: 40px;
+  color: #6f6a6a;
+  a{
+      text-decoration: none;
+      color: #6f6a6a;
+    }
+  a:hover{
+    text-decoration: none;
+    color: orange;
+  }
+} 
+.service-holder2{
+  width: 200px;
+  display: inline-block;
+  a{
+      text-decoration: none;
+      color: #6f6a6a;
+    }
+  a:hover{
+    text-decoration: none;
+    color: orange;
+  }
+
+}   
+.study-abroad-icon{
+  content : url('https://cdn2.iconfinder.com/data/icons/picol-vector/32/transportation_plane-128.png');
+}
+.study-abroad-icon:hover{
+  content : url('https://cdn2.iconfinder.com/data/icons/air-passenger-transportation/512/one_way-128.png');
+}
+.language{
+  content : url('https://cdn3.iconfinder.com/data/icons/solid-locations-icon-set/64/LIBRARY_2-128.png');
+}
+.language:hover{
+  content : url('https://cdn2.iconfinder.com/data/icons/new-year-resolutions/64/resolutions-05-128.png');
+}
+.greencard{
+  content : url('https://cdn2.iconfinder.com/data/icons/maki/100/credit-card-128.png');    
+}
+.greencard:hover{
+  content : url('https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/creditcard-128.png');
+    
+}
+.study-online{
+  content : url('https://cdn3.iconfinder.com/data/icons/faticons/32/globe-01-128.png');    
+}
+.study-online:hover{
+  content : url('https://cdn4.iconfinder.com/data/icons/small-n-flat/24/globe-128.png');    
+}
+.australia{
+  content : url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_Australia.png');
+}
+.australia:hover{
+  content : url('https://cdn3.iconfinder.com/data/icons/finalflags/128/Australia-Flag.png');
+}
+.usa{
+  content : url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_States.png');
+}
+.usa:hover{
+  content : url('https://cdn3.iconfinder.com/data/icons/finalflags/128/United-States-Flag.png');
+}
+.uk{
+  content : url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_Kingdom.png');
+}
+.uk:hover{
+  content : url('https://cdn3.iconfinder.com/data/icons/finalflags/128/United-Kingdom-flag.png');
+}
+.canada{
+  content : url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_Canada.png');
+}
+.canada:hover{
+  content : url('https://cdn3.iconfinder.com/data/icons/finalflags/128/Canada-Flag.png');
+}
+.newzealand{
+  content : url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_New_Zealand.png');
+}
+.newzealand:hover{
+  content : url('https://cdn3.iconfinder.com/data/icons/finalflags/128/New-Zealand-Flag.png');
+}
+.toefl{
+  height:128;
+  width: 128;
+  content : url('http://www.bestieltscoaching.com/Images/TOEFL_icon.png');
+}
+.toefl:hover{
+  content : url('http://quiz.best/uploads/pics/2016/04/14/54098783_icon256.png');
+}
+.ielts{
+  height:128;
+  width: 128;
+  content : url('https://www.ieltsprime.com/wp-content/uploads/2015/06/06-icon-ielts.png');
+}
+.ielts:hover{
+  content : url('http://www.acct.edu.in/wp-content/uploads/2014/06/ielts-01.png');
+}
+.language-holder{
+  margin-left:250px;
+}
+.denmark{
+  content : url('https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_Denmark.png');
+}
+.denmark:hover{
+  content : url('https://cdn3.iconfinder.com/data/icons/finalflags/128/Denmark-Flag.png');
+}
+.ma{
+  content : url('https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png');
+}
+.ma:hover{
+  content : url('https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Student-3-128.png');
+}
+.mba{
+  height:128;
+  width: 128;
+  content : url('https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png');
+}
+.mba:hover{
+  content : url('https://cdn4.iconfinder.com/data/icons/Basic_set2_Png/64/user6.png');
+}
+.ba{
+  content : url('https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-13-2-128.png');
+}
+.ba:hover{
+  content : url('https://cdn0.iconfinder.com/data/icons/tutor-icon-set/512/student_icon-128.png');
+}
+.country-name{
+  margin:40px;
+  margin-top:5px;
+}
+.certificate-block{
+  margin-left:140px;
+  padding-top: 30px;
+  height: 180px;
+  display : flex;
+  .ncoc{
+    content: url('http://alpinenepalcarpet.com.np/uploads/images/pages/COC.png');
+    margin-right: 40px;
+    height: 140px;
+  }
+  .wh{
+    width: 200px;
+    height: 140px;
+    margin-right: 40px;
+    content: url('https://pbs.twimg.com/profile_images/1164927649/logo_WH.jpg');
+  }
+  .iso{
+    width: 150px;
+    height: 140px;
+    margin-right: 40px;
+    content: url('https://static-s.aa-cdn.net/img/ios/486786913/8d6a5fa14f9c5de748bff4409c1d8bf6?v=1');
+  }
+
+}
+.testimonial-home{
+  height: 350px;
+  background-color: orange;
+  padding-left:70px;
+  line-height: 130%;
+  letter-spacing: 0.8px;
+
+  .remarks{
+    width: 55%;
+    float: left;
+    margin-top:40px; 
+    .main-text{      
+      font-style: italic;
+      color : #5a3840;
+    } 
+    .user-text{      
+      color: #1a1a1b;
+    }   
+  }
+  .photo{
+    width:45%;
+    height: 350px;
+    content: url('https://www.discover.com/student-loans/images/mobileNew/mthumb2.jpg');
+  }
+}

@@ -1,0 +1,20 @@
+
+
+var React = require('react');
+
+//var Footer = require('./footer.jsx');
+//var Header = require('./header.jsx');
+
+var Main = React.createClass({
+  render: function() {
+
+    return (
+      <div>
+        Hello
+        {this.children}
+      </div>
+    );
+  }
+});
+
+module.exports = Main;

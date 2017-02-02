@@ -1,0 +1,19 @@
+var React = require('react');
+var ReactRouter = require('react-router');
+var history = require('react-router').browserHistory;
+var Router = ReactRouter.Router;
+var Route = ReactRouter.Route;
+
+var Main = require('./components/main');
+//var AboutUs = require('./components/aboutus');
+//var Services = require('./components/services');
+
+module.exports =
+(
+	<Router history = {new HashHistory}>
+		<Route path = "/" component ={Main} >
+			//<Route path = "topics/aboutus" component = {AboutUs} />
+			//<Route path = "images/services" component = {Services} />
+		</Route>
+	</Router>
+)

@@ -1,0 +1,75 @@
+body{
+  background-color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container2{
+  
+}
+
+.body-content{
+  margin-top: 51px;
+  background: white;
+}
+
+
+
+.inside-title{
+  font-weight:bold;
+}
+
+.gallery{
+  text-align: center;
+  padding-top: 20px;
+  hr{
+    display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: 450px;
+      margin-right: 450px;
+      border-style: inset;
+      border-width: 1px;
+      border-color:orange;
+  }
+  .title{
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .category{    
+    padding-left : 100px;
+    margin-bottom : 30px;
+    padding-top: 30px;
+    overflow: hidden;
+    width: 1000px;
+    .photo{
+      border-radius : 7px;
+        overflow: hidden;
+        margin-left: 10px;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .photo:hover{
+      transform: scale(1.7);
+      overflow-y: visible; 
+    }
+  }
+}
+.contact-photo{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    content: url('http://res.cloudinary.com/instantum/image/upload/v1486006194/best-contact-us-page-examples_mvbeua.jpg');
+  }
+.contact-btn-holder{
+  margin-left: 200px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  .btn-class{
+    text-align: center;
+    border-radius: 7px;
+  }
+  .btn-class:hover{
+    transform: scale(1.7);
+  }
+}

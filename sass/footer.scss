@@ -1,0 +1,100 @@
+.footer-container {
+  border-top: #dce0e0;
+  height: 250px;
+  background: #E2E2E2;
+  .content {
+    padding: 25px 0;
+    margin: auto;
+    max-width: 1100px;
+    color: #bbb;
+    .footer-logo{
+        height: 150px;
+        width: 150px;
+        content: url("http://res.cloudinary.com/instantum/image/upload/v1485797234/0-02-06-05578848d41e2aed4fc43077ee27b44c86b346ed05baa6a28d1d555e6ad741e8_full_hdcp2y.jpg");
+        background-width:100% ;
+        float:left;
+        margin-right: 40px;
+      }
+    .logos {
+      float: left;
+      width: 225px;      
+      margin-left: 20px;
+      margin-top:10px;
+      .kit{
+        color:black;
+        margin-left:40px;
+      }      
+      .social-logo-holder {
+        display: block;
+        float: left;
+        padding: 0 4px;
+        margin-top: 1px;
+        margin-left: 15px;
+        cursor: pointer;  
+        img.social-facebook,
+        img.social-twitter,
+        img.social-googleplus,
+        img.social-linkedin {        
+          height: 40px;
+          width: 40px;
+          display: block;
+          float: left;
+          margin-left: 05px;         
+        }
+        img.social-facebook{
+          content: url("https://cdn1.iconfinder.com/data/icons/social-signature/512/Facebook_Solid-128.png");       
+        }
+        img.social-twitter{
+          content: url("https://cdn1.iconfinder.com/data/icons/social-signature/512/Twitter_Solid-128.png");
+        }
+        img.social-googleplus{
+          content: url("https://cdn1.iconfinder.com/data/icons/social-signature/512/Google_Plus_Solid-128.png");
+        }
+        img.social-linkedin{
+          content: url("https://cdn1.iconfinder.com/data/icons/social-signature/512/Linkedin_Solid-128.png");
+        } 
+        .social-facebook:hover {
+          content: url("https://cdn1.iconfinder.com/data/icons/social-signature/512/Facebook_Color-128.png");
+          background-size: 100% 100%;
+        }
+        img.social-twitter:hover {
+          content: url("https://cdn1.iconfinder.com/data/icons/social-signature/512/Twitter_Color-128.png");
+          background-size: 100% 100%;
+        }
+        img.social-googleplus:hover {
+          content: url("https://cdn1.iconfinder.com/data/icons/social-signature/512/Google_Plus_Color-128.png");
+          background-size: 100% 100%;
+        }
+        img.social-linkedin:hover {
+          content: url("https://cdn1.iconfinder.com/data/icons/social-signature/512/Linkedin_Color-128.png");
+          background-size: 100% 100%;
+        }
+      }
+    }  
+  }
+  .footer-links-holder{
+    .footer-list{
+      list-style-type: none;
+      color: black;  
+      font-size: 18px;
+      .footer-link{
+        color: #6f6a6a;
+        font-weight: normal;
+        font-size: 16px;
+        padding-bottom: 6px;
+        a, a:link, a:visited {
+          text-decoration: none;
+          color: #6f6a6a;
+        }
+        a:hover {
+          color: #f4802d;
+        }
+      }
+    }
+  }
+}
+.footer-individual{
+  display:inline;
+  float:left;
+  margin-left: 35px;
+}

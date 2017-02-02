@@ -1,0 +1,55 @@
+.header{  
+  background-color: #dce0e0;
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 98%;
+  height: 51px;
+  border-bottom: 1px solid #dce0e0;
+  margin-right: 90px;
+  padding-right: 10px;
+  overflow: hidden;
+  a{
+  text-decoration: none;
+  }
+  .title-logo{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    color : #696565;
+  }
+  .title-logo2{
+    font-size: 40px;
+    color :#ff9800;
+  }
+  .header-logo{
+    content: url('http://res.cloudinary.com/instantum/image/upload/v1485797234/0-02-06-05578848d41e2aed4fc43077ee27b44c86b346ed05baa6a28d1d555e6ad741e8_full_hdcp2y.jpg');
+    background-size: 100%;
+    height: 51px;
+    width: 50px;
+  }
+  .header-links{
+  text-align: right;
+  margin-left: 300px;
+  a{
+    text-decoration: none;
+    color: #696565;
+  }
+  a:hover{
+    text-decoration: none;
+    color: #ff9800;
+  }
+  .link{
+    font-weight: bold; 
+    display: inline;
+    border-left:2px solid white;
+    margin-left: 9px;
+    margin-right: 6px;
+    padding-left: 5px;
+    height: 52px;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+  }
+  }
+}
